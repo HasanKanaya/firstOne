@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+.matemasie-regular {
+  font-family: "Caveat", cursive;
+  /* font-optical-sizing: auto; */
+  font-weight: 800;
+  /* font-style: normal; */
+  font-size: 22px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+/* Colors: #eeecd7; #02343f; */
+/* width: 350px, height: 450px */
+
 body {
   background-color: #02343f;
   position: relative;
@@ -49,6 +62,7 @@ hr {
 .parent .two .content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 18px;
 }
 
