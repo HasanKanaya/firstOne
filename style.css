@@ -12,9 +12,9 @@ body {
 }
 
 .parent {
-  background-color: #f0edcc;
+  background-color: #eeecd7;
   color: #02343f;
-  width: 350px;
+  width: 330px;
   height: 450px;
   border-radius: 10px;
   position: absolute;
@@ -74,8 +74,8 @@ hr {
     opacity: 0.7;
   }
   85% {
-    background-color: #f0edcc;
-    border: #f0edcc;
+    background-color: #eeecd7;
+    border: #eeecd7;
   }
   100% {
     background-color: #02343f;
