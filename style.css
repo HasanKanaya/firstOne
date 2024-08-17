@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --animate-delay: 0.5s;
+}
+
 .matemasie-regular {
   font-family: "Caveat", cursive;
   /* font-optical-sizing: auto; */
