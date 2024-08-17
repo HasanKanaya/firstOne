@@ -3,3 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #02343f;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.parent {
+  background-color: #f0edcc;
+  color: #02343f;
+  width: 350px;
+  height: 450px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+hr {
+  height: 1.5px;
+  width: 70%;
+  border: none;
+  background-color: #02343f;
+  margin-top: -100px;
+}
